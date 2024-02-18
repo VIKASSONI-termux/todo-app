@@ -4,7 +4,7 @@ import Todo from "./Todo";
 import TodoFiltered from "./TodoFiltered";
 
 function TodoList() {
-  const [todos, setTodos] = useState([localStorage.getItem('array')]);
+  const [todos, setTodos] = useState([]);
 //   const [completedtodos, setCompletedTodos] = useState([]);
 //   const [incompletedtodos, setIncompletedTodos] = useState([]);
 const [filter,setFilter]=useState(false)
@@ -48,7 +48,7 @@ const [filter,setFilter]=useState(false)
   const completeTodo = (id) => {
     let updatedTodos = todos.map((todo) => {
       if (todo.id === id) {
-        todo.isComplete = !todo.isComplete;
+     
         todo.complete=!todo.complete
       }
       return todo;
@@ -59,16 +59,7 @@ const [filter,setFilter]=useState(false)
 
 const handleFilter=()=>{
 setFilter(true) 
-//    todos.map((todo)=>{
-//         if(todo.complete===true){
-//             const newCompletedTodos = [todo, ...todos];
-//             setCompletedTodos(newCompletedTodos)
-//         }
-//         if(todo.complete===false){
-//             const newIncompletedTodos = [todo, ...todos];
-//             setIncompletedTodos(newIncompletedTodos)
-//         }
-//     })
+
 }
   if(filter===true){
     return(

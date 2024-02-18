@@ -11,7 +11,7 @@ function TodoFiltered(props) {
             <>
            
             <div
-            className={todo.isComplete ? "todo-row complete" : "todo-row"}
+            className={todo.complete ? "todo-row complete" : "todo-row"}
         
           >
             {todo.text}
@@ -32,7 +32,7 @@ function TodoFiltered(props) {
             <>
            
             <div
-            className={todo.isComplete ? "todo-row complete" : "todo-row"}
+            className={todo.complete ? "todo-row complete" : "todo-row"}
         
           >
             {todo.text}

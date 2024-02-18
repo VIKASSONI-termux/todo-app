@@ -22,7 +22,7 @@ function TodoForm(props) {
 
     setInput('');
   };
-const handleFilter= e=>{
+const handleFilter= ()=>{
   props.handleFilter()
   // console.log(props.handleFilter.completedtodos)
 
