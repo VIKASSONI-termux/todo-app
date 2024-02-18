@@ -1,3 +1,34 @@
+# Todo List Application Overview
+# Introduction
+The Todo List App is a project designed to facilitate task management by allowing users to create, edit, and mark tasks as complete within a user-friendly interface.
+
+# Features
+Upon launching the application, users are greeted with a simple interface comprising a text input field and two buttons.
+
+Adding Items: Users can add items to the list by entering text into the input field and either pressing the "Enter" key or clicking the "Add Item" button.
+
+Item Management: Each item in the list is accompanied by three icons on the right side:
+
+The first icon is a cross symbol, allowing users to delete the corresponding item from the list.
+The second icon represents an edit option, enabling users to modify the content of the item.
+The third icon, in the form of a checkmark, enables users to mark the item as completed.
+Filtering: Users can toggle between viewing completed and incomplete items using the "Filter" button located above the list. Upon activation, this button separates the list into completed and incomplete tasks, providing users with a filtered view based on their selection.
+
+# Usage
+Adding Items: Enter the task description into the text input field and either press "Enter" or click "Add Item" to add it to the list.
+Managing Items: Utilize the icons associated with each item to delete, edit, or mark tasks as complete.
+Filtering: Click the "Filter" button to toggle between viewing completed and incomplete tasks, providing a refined view of the task list based on user preference.
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
